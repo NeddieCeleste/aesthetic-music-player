@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aesthetic Audio Player</title>
+    <link rel="icon" type="image/png" href="{% static 'player/assets/player-icon.png' %}">
+    <link rel="stylesheet" href="{% static 'player/style.css' %}">
+</head>
+<body>
+    <div class="main-frame">
+        {% block main_frame %}{% endblock %}
+    </div>
+</body>
+</html>
