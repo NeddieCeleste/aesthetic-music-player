@@ -8,7 +8,31 @@
 </head>
 <body>
     <div class="main-frame">
-        {% block main_frame %}{% endblock %}
+        <div class="top-bar">
+            <div class="full-title-area">
+                <div class="icon-area"></div>
+                <div class="title-area"></div>
+            </div>
+            <div class="minimize-button-area"></div>
+            <div class="close-button-area"></div>
+        </div>
+
+        <div class="content-area">
+            <div class="song-image"></div>
+            <div class="song-list">
+                <div class="song-container"></div>
+                <div class="list-sidebar"></div>
+            </div>
+        </div>
+
+        <div class="play-area">
+            <div class="progress-bar-area"></div>
+            <div class="play-buttons-area">
+                <div class="previous-button-area"></div>
+                <div class="play-button-area"></div>
+                <div class="next-button-area"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
